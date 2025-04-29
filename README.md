@@ -8,7 +8,36 @@ This project implements a high-performance routing system that finds the **faste
 
 ## 📂 Project Structure
 
-Map_Routing/ │ ├── Models/ # Data models (Node, Edge, Query) ├── Engine/ # Graph construction, pathfinding logic ├── Utilities/ # File parsing, timing tools, helpers ├── Program.cs # Main execution file ├── map.txt # Sample map input ├── queries.txt # Sample routing queries └── output.txt # Output result
+ShortestPathFinder.MapRouting/
+│
+├── Engine/                      # Core graph logic
+│   ├── Graph.cs                 # Graph data structure (nodes + edges)
+│   ├── OptimalAlgorithm.cs     # Main algorithm for fastest path (Dijkstra or optimized)
+│   └── PathBuilder.cs          # Reconstructs the path and calculates total time/distance
+│
+├── Handler/                    # Logic for walking range filtering
+│   └── HandleWalkingDistance.cs# Finds nodes reachable by walking from source/destination
+│
+├── Models/                     # Basic data structures
+│   ├── Edge.cs                 # Represents a road with length and speed
+│   ├── Node.cs                 # Represents an intersection (ID + coordinates)
+│   └── Query.cs                # Represents a routing query (source, destination, max walk)
+│
+├── Utilities/                  # Helper and support functions
+│   ├── HelperFunctions.cs      # Geometry, distance, rounding helpers
+│   ├── InputReader.cs          # Parses map and queries files
+│   └── TimeHandler.cs          # Tracks execution time (with and without I/O)
+│
+├── TestCases/                  # Testing scenarios
+│   ├── Large Cases/            # For stress and performance tests
+│   ├── Medium Cases/           # Balanced test cases
+│   └── Sample Cases/           # Small/basic examples for debugging
+│
+├── myOutput/
+│   └── results.txt             # Output file for path results and timings
+│
+├── Program.cs                  # Entry point: load input, process queries, output results
+└── README.md                   # Project overview and documentation (not shown in VS)
 
 ---
 
