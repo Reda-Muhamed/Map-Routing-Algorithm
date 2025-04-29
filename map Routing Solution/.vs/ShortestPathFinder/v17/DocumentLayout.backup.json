@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\algo_project\\map routing solution\\map_routing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\algo_project\\map routing solution\\map_routing\\models\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\models\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\algo_project\\map routing solution\\map_routing\\testcases\\sample cases\\[1] sample cases\\input\\map1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\sample cases\\[1] sample cases\\input\\map1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\algo_project\\map routing solution\\map_routing\\utilities\\timehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\utilities\\timehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\algo_project\\map routing solution\\map_routing\\models\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\models\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\algo_project\\map routing solution\\map_routing\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "map1.txt",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\map1.txt",
+              "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\map1.txt",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\map1.txt",
+              "RelativeToolTip": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\map1.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-29T18:43:12.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TimeHandler.cs",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\Utilities\\TimeHandler.cs",
+              "RelativeDocumentMoniker": "Map_Routing\\Utilities\\TimeHandler.cs",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\Utilities\\TimeHandler.cs",
+              "RelativeToolTip": "Map_Routing\\Utilities\\TimeHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:35:16.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\Program.cs",
+              "RelativeDocumentMoniker": "Map_Routing\\Program.cs",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\Program.cs",
+              "RelativeToolTip": "Map_Routing\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:32:42.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Query.cs",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\Models\\Query.cs",
+              "RelativeDocumentMoniker": "Map_Routing\\Models\\Query.cs",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\Models\\Query.cs",
+              "RelativeToolTip": "Map_Routing\\Models\\Query.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:31:07.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edge.cs",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\Models\\Edge.cs",
+              "RelativeDocumentMoniker": "Map_Routing\\Models\\Edge.cs",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\Models\\Edge.cs*",
+              "RelativeToolTip": "Map_Routing\\Models\\Edge.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:30:17.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Node.cs",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\Models\\Node.cs",
+              "RelativeDocumentMoniker": "Map_Routing\\Models\\Node.cs",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\Models\\Node.cs",
+              "RelativeToolTip": "Map_Routing\\Models\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:30:16.692Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
