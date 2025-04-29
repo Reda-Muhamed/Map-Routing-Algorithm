@@ -10,34 +10,34 @@ This project implements a high-performance routing system that finds the **faste
 
 
 -ShortestPathFinder.MapRouting/
--│
--├── Engine/                     
--│   ├── Graph.cs                 
--│   ├── OptimalAlgorithm.cs     
--│   └── PathBuilder.cs          
--│
--├── Handler/                    
--│   └── HandleWalkingDistance.cs
--│
--├── Models/                     
--│   ├── Edge.cs                 
--│   ├── Node.cs                
--│   └── Query.cs               
--│
--├── Utilities/                 
--│   ├── HelperFunctions.cs      
--│   ├── InputReader.cs          
--│   └── TimeHandler.cs          
--│
--├── TestCases/                 
--│  ├── Large Cases/           
--│   ├── Medium Cases/           
--│   └── Sample Cases/           
--├── myOutput/
--│   └── results.txt             
--│
--├── Program.cs                  
--└── README.md                  
+│
+├── Engine/                     
+│   ├── Graph.cs                 
+│   ├── OptimalAlgorithm.cs     
+│   └── PathBuilder.cs          
+│
+├── Handler/                    
+│   └── HandleWalkingDistance.cs
+│
+├── Models/                     
+│   ├── Edge.cs                 
+│   ├── Node.cs                
+│   └── Query.cs               
+│
+├── Utilities/                 
+│   ├── HelperFunctions.cs      
+│   ├── InputReader.cs          
+│   └── TimeHandler.cs          
+│
+├── TestCases/                 
+│  ├── Large Cases/           
+│   ├── Medium Cases/           
+│   └── Sample Cases/           
+├── myOutput/
+│   └── results.txt             
+│
+├── Program.cs                  
+└── README.md                  
 
 ---
 
