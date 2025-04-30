@@ -3,56 +3,88 @@
   "WorkspaceRootPath": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\large cases\\[3] large cases\\output\\sfoutput.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\large cases\\[3] large cases\\output\\sfoutput.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\large cases\\[3] large cases\\input\\sfqueries.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\large cases\\[3] large cases\\input\\sfqueries.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\medium cases\\[2] medium cases\\output\\oloutput.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\medium cases\\[2] medium cases\\output\\oloutput.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\engine\\optimalalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\engine\\optimalalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\utilities\\buildgraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\utilities\\buildgraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\utilities\\indexedpriorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\utilities\\indexedpriorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\engine\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\engine\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\large cases\\[3] large cases\\input\\sfmap.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\large cases\\[3] large cases\\input\\sfmap.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\utilities\\helperfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\utilities\\helperfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\utilities\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\utilities\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\models\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\models\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\sample cases\\[1] sample cases\\output\\output2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\sample cases\\[1] sample cases\\output\\output2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\sample cases\\[1] sample cases\\output\\output1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\sample cases\\[1] sample cases\\output\\output1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\sample cases\\[1] sample cases\\input\\queries1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\sample cases\\[1] sample cases\\input\\queries1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\utilities\\resultwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\utilities\\resultwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\handler\\handlebestroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\handler\\handlebestroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\sample cases\\[1] sample cases\\output\\output5.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\sample cases\\[1] sample cases\\output\\output5.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\sample cases\\[1] sample cases\\output\\output4.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\sample cases\\[1] sample cases\\output\\output4.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\utilities\\timehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\utilities\\timehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\myoutput\\results.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\myoutput\\results.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\engine\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\engine\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\models\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\models\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\utilities\\helperfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\utilities\\helperfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\sample cases\\[1] sample cases\\input\\queries1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\sample cases\\[1] sample cases\\input\\queries1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\engine\\pathbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\engine\\pathbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\handler\\handlewalkingdisance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\handler\\handlewalkingdisance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\models\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,14 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\shortestpathfinder.maprouting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\shortestpathfinder.maprouting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\large cases\\[3] large cases\\input\\sfqueries.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\large cases\\[3] large cases\\input\\sfqueries.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\large cases\\[3] large cases\\input\\sfmap.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|solutionrelative:map_routing\\testcases\\large cases\\[3] large cases\\input\\sfmap.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6638983A-443F-4120-9959-06D98C39DF17}|Map_Routing\\ShortestPathFinder.MapRouting.csproj|e:\\college material\\algo\\map routing algorithm project\\map routing solution\\map_routing\\testcases\\medium cases\\[2] medium cases\\input\\olqueries.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -106,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 28,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,13 +142,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "OLOutput.txt",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Medium Cases\\[2] Medium Cases\\Output\\OLOutput.txt",
+              "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Medium Cases\\[2] Medium Cases\\Output\\OLOutput.txt",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Medium Cases\\[2] Medium Cases\\Output\\OLOutput.txt",
+              "RelativeToolTip": "Map_Routing\\TestCases\\Medium Cases\\[2] Medium Cases\\Output\\OLOutput.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-30T22:29:11.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "output5.txt",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output5.txt",
+              "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output5.txt",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output5.txt",
+              "RelativeToolTip": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output5.txt",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-30T21:42:12.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "output4.txt",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output4.txt",
+              "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output4.txt",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output4.txt",
+              "RelativeToolTip": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output4.txt",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-30T21:17:01.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "output2.txt",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output2.txt",
+              "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output2.txt",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output2.txt",
+              "RelativeToolTip": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output2.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-30T21:16:28.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "results.txt",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\myOutput\\results.txt",
+              "RelativeDocumentMoniker": "Map_Routing\\myOutput\\results.txt",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\myOutput\\results.txt",
+              "RelativeToolTip": "Map_Routing\\myOutput\\results.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-30T20:22:43.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SFOutput.txt",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Output\\SFOutput.txt",
+              "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Output\\SFOutput.txt",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Output\\SFOutput.txt",
+              "RelativeToolTip": "Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Output\\SFOutput.txt",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-30T18:57:15.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "output1.txt",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output1.txt",
               "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output1.txt",
               "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output1.txt",
               "RelativeToolTip": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Output\\output1.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-04-30T12:02:16.299Z",
               "EditorCaption": ""
@@ -132,19 +234,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "InputReader.cs",
-              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Utilities\\InputReader.cs",
-              "RelativeDocumentMoniker": "Map_Routing\\Utilities\\InputReader.cs",
-              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Utilities\\InputReader.cs",
-              "RelativeToolTip": "Map_Routing\\Utilities\\InputReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Title": "BuildGraph.cs",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Utilities\\BuildGraph.cs",
+              "RelativeDocumentMoniker": "Map_Routing\\Utilities\\BuildGraph.cs",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Utilities\\BuildGraph.cs",
+              "RelativeToolTip": "Map_Routing\\Utilities\\BuildGraph.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCIAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T11:46:18.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "HelperFunctions.cs",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Utilities\\HelperFunctions.cs",
               "RelativeDocumentMoniker": "Map_Routing\\Utilities\\HelperFunctions.cs",
@@ -152,90 +254,88 @@
               "RelativeToolTip": "Map_Routing\\Utilities\\HelperFunctions.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAADwvxYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T11:09:39.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T11:09:39.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HandleWalkingDisance.cs",
-              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Handler\\HandleWalkingDisance.cs",
-              "RelativeDocumentMoniker": "Map_Routing\\Handler\\HandleWalkingDisance.cs",
-              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Handler\\HandleWalkingDisance.cs",
-              "RelativeToolTip": "Map_Routing\\Handler\\HandleWalkingDisance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "HandleBestRoute.cs",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Handler\\HandleBestRoute.cs",
+              "RelativeDocumentMoniker": "Map_Routing\\Handler\\HandleBestRoute.cs",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Handler\\HandleBestRoute.cs",
+              "RelativeToolTip": "Map_Routing\\Handler\\HandleBestRoute.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T11:09:05.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IndexedPriorityQueue.cs",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Utilities\\IndexedPriorityQueue.cs",
               "RelativeDocumentMoniker": "Map_Routing\\Utilities\\IndexedPriorityQueue.cs",
               "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Utilities\\IndexedPriorityQueue.cs",
               "RelativeToolTip": "Map_Routing\\Utilities\\IndexedPriorityQueue.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAEwD4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwG4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T09:54:21.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ShortestPathFinder.MapRouting",
+              "DocumentIndex": 22,
+              "Title": "ShortestPathFinder.MapRouting.csproj",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj",
               "RelativeDocumentMoniker": "Map_Routing\\ShortestPathFinder.MapRouting.csproj",
               "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj",
               "RelativeToolTip": "Map_Routing\\ShortestPathFinder.MapRouting.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-30T09:52:28.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T09:52:28.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PathBuilder.cs",
-              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Engine\\PathBuilder.cs",
-              "RelativeDocumentMoniker": "Map_Routing\\Engine\\PathBuilder.cs",
-              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Engine\\PathBuilder.cs",
-              "RelativeToolTip": "Map_Routing\\Engine\\PathBuilder.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ResultWriter.cs",
+              "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Utilities\\ResultWriter.cs",
+              "RelativeDocumentMoniker": "Map_Routing\\Utilities\\ResultWriter.cs",
+              "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Utilities\\ResultWriter.cs",
+              "RelativeToolTip": "Map_Routing\\Utilities\\ResultWriter.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T09:44:29.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
               "Title": "SFQueries.txt",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Input\\SFQueries.txt",
               "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Input\\SFQueries.txt",
               "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Input\\SFQueries.txt",
               "RelativeToolTip": "Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Input\\SFQueries.txt",
-              "ViewState": "AgIAAEEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOoCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-04-30T09:44:14.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "SFMap.txt",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Input\\SFMap.txt",
               "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Input\\SFMap.txt",
               "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Input\\SFMap.txt",
               "RelativeToolTip": "Map_Routing\\TestCases\\Large Cases\\[3] Large Cases\\Input\\SFMap.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMMNBgAAAAAAAAAAANENBgATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-04-30T09:44:08.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "OLQueries.txt",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Medium Cases\\[2] Medium Cases\\Input\\OLQueries.txt",
               "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Medium Cases\\[2] Medium Cases\\Input\\OLQueries.txt",
@@ -243,12 +343,11 @@
               "RelativeToolTip": "Map_Routing\\TestCases\\Medium Cases\\[2] Medium Cases\\Input\\OLQueries.txt",
               "ViewState": "AgIAANcDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-30T09:43:49.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T09:43:49.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "OLMap.txt",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Medium Cases\\[2] Medium Cases\\Input\\OLMap.txt",
               "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Medium Cases\\[2] Medium Cases\\Input\\OLMap.txt",
@@ -256,12 +355,11 @@
               "RelativeToolTip": "Map_Routing\\TestCases\\Medium Cases\\[2] Medium Cases\\Input\\OLMap.txt",
               "ViewState": "AgIAAJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-30T09:43:44.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T09:43:44.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "queries5.txt",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries5.txt",
               "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries5.txt",
@@ -269,12 +367,11 @@
               "RelativeToolTip": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries5.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-30T09:43:31.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T09:43:31.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "queries4.txt",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries4.txt",
               "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries4.txt",
@@ -282,12 +379,11 @@
               "RelativeToolTip": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries4.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-30T09:43:29.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T09:43:29.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "queries2.txt",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries2.txt",
               "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries2.txt",
@@ -295,12 +391,11 @@
               "RelativeToolTip": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries2.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-30T09:43:28.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T09:43:28.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "queries1.txt",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries1.txt",
               "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries1.txt",
@@ -308,12 +403,11 @@
               "RelativeToolTip": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\queries1.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-30T09:43:25.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T09:43:25.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "map5.txt",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\map5.txt",
               "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\map5.txt",
@@ -321,25 +415,24 @@
               "RelativeToolTip": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\map5.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-30T09:43:24.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T09:43:24.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "OptimalAlgorithm.cs",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Engine\\OptimalAlgorithm.cs",
               "RelativeDocumentMoniker": "Map_Routing\\Engine\\OptimalAlgorithm.cs",
               "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Engine\\OptimalAlgorithm.cs",
               "RelativeToolTip": "Map_Routing\\Engine\\OptimalAlgorithm.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAgwCwAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T09:27:21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "Graph.cs",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Engine\\Graph.cs",
               "RelativeDocumentMoniker": "Map_Routing\\Engine\\Graph.cs",
@@ -347,12 +440,11 @@
               "RelativeToolTip": "Map_Routing\\Engine\\Graph.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T09:23:52.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T09:23:52.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "map1.txt",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\map1.txt",
               "RelativeDocumentMoniker": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\map1.txt",
@@ -360,38 +452,37 @@
               "RelativeToolTip": "Map_Routing\\TestCases\\Sample Cases\\[1] Sample Cases\\Input\\map1.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-29T18:43:12.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T18:43:12.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "TimeHandler.cs",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Utilities\\TimeHandler.cs",
               "RelativeDocumentMoniker": "Map_Routing\\Utilities\\TimeHandler.cs",
               "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Utilities\\TimeHandler.cs",
               "RelativeToolTip": "Map_Routing\\Utilities\\TimeHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T18:35:16.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Program.cs",
               "RelativeDocumentMoniker": "Map_Routing\\Program.cs",
               "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Program.cs",
               "RelativeToolTip": "Map_Routing\\Program.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAQwEsAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwCcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T18:32:42.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "Query.cs",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Models\\Query.cs",
               "RelativeDocumentMoniker": "Map_Routing\\Models\\Query.cs",
@@ -399,25 +490,23 @@
               "RelativeToolTip": "Map_Routing\\Models\\Query.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwBIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T18:31:07.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T18:31:07.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "Edge.cs",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Models\\Edge.cs",
               "RelativeDocumentMoniker": "Map_Routing\\Models\\Edge.cs",
               "ToolTip": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Models\\Edge.cs",
               "RelativeToolTip": "Map_Routing\\Models\\Edge.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T18:30:17.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T18:30:17.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "Node.cs",
               "DocumentMoniker": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\Models\\Node.cs",
               "RelativeDocumentMoniker": "Map_Routing\\Models\\Node.cs",
@@ -425,8 +514,7 @@
               "RelativeToolTip": "Map_Routing\\Models\\Node.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T18:30:16.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T18:30:16.692Z"
             }
           ]
         }

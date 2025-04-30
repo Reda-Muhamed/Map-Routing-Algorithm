@@ -12,28 +12,31 @@ namespace ShortestPathFinder.MapRouting.Utilities
     {
         private static Stopwatch timerForTheAllProgram = new Stopwatch();
         private static Stopwatch timerForLogicCode = new Stopwatch();
-
-        public static void StartIO()
+        
+        public static void StartTotalProgramTimer()
         {
             timerForTheAllProgram.Start();
         }
 
-        public static void EndIO()
+        public static void EndTotalProgramTimer()
         {
             timerForTheAllProgram.Stop();
         }
 
-        public static void StartCore()
+        public static void StartLogicTimer()
         {
             timerForLogicCode.Start();
         }
 
-        public static void EndCore()
+        public static void EndLogicTimer()
         {
             timerForLogicCode.Stop();
         }
+       public static long GetTotalTimeInMilliseconds() => timerForTheAllProgram.ElapsedMilliseconds;
+       public static long GetTotalLogicTimeInMilliseconds() => timerForLogicCode.ElapsedMilliseconds;
 
-       
+
+
     }
 
 }
