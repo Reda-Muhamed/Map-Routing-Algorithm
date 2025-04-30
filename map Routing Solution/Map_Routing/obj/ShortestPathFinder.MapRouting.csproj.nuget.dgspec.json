@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj": {}
+    "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj": {}
   },
   "projects": {
-    "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj": {
+    "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj",
+        "projectUniqueName": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj",
         "projectName": "ShortestPathFinder.MapRouting",
-        "projectPath": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj",
+        "projectPath": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj",
         "packagesPath": "C:\\Users\\reda2\\.nuget\\packages\\",
-        "outputPath": "E:\\COLLEGE MATERIAL\\Algo\\ALGO_PROJECT\\map Routing Solution\\Map_Routing\\obj\\",
+        "outputPath": "E:\\COLLEGE MATERIAL\\Algo\\map Routing Algorithm Project\\map Routing Solution\\Map_Routing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

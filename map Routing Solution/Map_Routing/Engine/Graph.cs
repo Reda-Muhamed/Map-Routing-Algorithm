@@ -10,7 +10,7 @@ namespace ShortestPathFinder.MapRouting.Engine
     public class Graph
     {
         
-        public List<Node> Nodes { get; set; }
+        public List<Node> Nodes { get; set; } // all nodes
         public Dictionary<int, List<Edge>> AdjacencyList { get; set; } // node[Id] => { edge1 : { from , to, length, speed }, ..... }
         public Graph()
         {

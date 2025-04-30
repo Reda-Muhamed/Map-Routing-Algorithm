@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ShortestPathFinder.MapRouting.Utilities
 {
-    public  class HelperFunctions
+    public class HelperFunctions
     {
         private const double WalkingSpeedKmH = 5.0;
 
@@ -30,20 +30,17 @@ namespace ShortestPathFinder.MapRouting.Utilities
 
 
         // Get all nodes in range of the given point
-        static List<Node> GetNearbyNodes(Point point, List<Node> allNodes, double maxWalkingDistance)//maxWalkingDistance : should be in KM
+        public static List<Node> GetNearbyNodes(double x, double y, List<Node> allNodes, double maxWalkingDistance)//maxWalkingDistance : should be in KM
         {
-            return allNodes.Where(n => calculateDistanceBetween2PointsInKm(n.XPoint, n.YPoint, point.X, point.Y) <= maxWalkingDistance).ToList();
+            return allNodes.Where(n => calculateDistanceBetween2PointsInKm(n.XPoint, n.YPoint, x, y) <= maxWalkingDistance).ToList();
         }
 
 
 
         // Calculate the walking time in minute
-        public static double CalculateWalkingTimeInMinutes(double distanceInMeters)
+        public static double CalculateWalkingTimeInH(double distanceInKM)
         {
-            double speedInMetersPerMinute = (WalkingSpeedKmH * 1000) / 60.0;
-            return distanceInMeters / speedInMetersPerMinute;
+            return distanceInKM / WalkingSpeedKmH;
         }
-
-
     }
 }
