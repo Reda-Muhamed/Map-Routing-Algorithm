@@ -28,8 +28,8 @@ namespace MapRouting
                 string[] queriesLines;
                 try
                 {
-                    graphLines =  File.ReadAllLines(@".\TestCases\Medium Cases\[2] Medium Cases\Input\OLMap.txt");
-                    queriesLines =  File.ReadAllLines(@".\TestCases\Medium Cases\[2] Medium Cases\Input\OLQueries.txt");
+                    graphLines = await File.ReadAllLinesAsync(@".\TestCases\Medium Cases\[2] Medium Cases\Input\OLMap.txt");
+                    queriesLines = await File.ReadAllLinesAsync(@".\TestCases\Medium Cases\[2] Medium Cases\Input\OLQueries.txt");
                 }
                 catch (Exception ex)
                 {
