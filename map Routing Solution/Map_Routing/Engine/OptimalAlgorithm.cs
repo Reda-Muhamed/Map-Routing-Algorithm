@@ -8,7 +8,7 @@ namespace ShortestPathFinder.MapRouting.Engine
         public static (string path ,double optimalTime,double allDistance) detectShortestPath(int n, int sourceId, int destinationId, Dictionary<int, List<Edge>> adjList)
         {
             List<int> path = new List<int>();
-            (int[] fromNodeId, double[] times, double[] distance) = optimizedDijkstraAlgorithm(n, sourceId, destinationId, adjList);
+            (int[] fromNodeId, double[] times) = optimizedDijkstraAlgorithm(n, sourceId, destinationId, adjList);
             //foreach(var parent in fromNodeId)
             //{
             //    Console.WriteLine(parent); //all is -1 :(
@@ -22,10 +22,19 @@ namespace ShortestPathFinder.MapRouting.Engine
 
             int currentNodeId = destinationId;
             double allDistance = 0.0;
-            while (currentNodeId != -1 || currentNodeId>=0)
+            while (currentNodeId != -1)
             {
                 path.Add(currentNodeId);
-                allDistance += distance[currentNodeId];
+                int prevNodeId = fromNodeId[currentNodeId];
+                if (prevNodeId != -1)
+                {
+                    // Get edge length from prevNodeId -> currentNodeId
+                    var edge = adjList[prevNodeId].FirstOrDefault(e => e.To == currentNodeId);
+                    if (edge != null)
+                    {
+                        allDistance += edge.LengthInKm;
+                    }
+                }
                 currentNodeId = fromNodeId[currentNodeId];
 
             }         
@@ -34,19 +43,17 @@ namespace ShortestPathFinder.MapRouting.Engine
         }
 
         // n -> #No. 0f nodes
-        static public (int[] fromNodeId, double[] times, double[] distance) optimizedDijkstraAlgorithm(int n, int sourceId, int destinationId, Dictionary<int, List<Edge>> adjList)
+        static public (int[] fromNodeId, double[] times) optimizedDijkstraAlgorithm(int n, int sourceId, int destinationId, Dictionary<int, List<Edge>> adjList)
         {
             bool[] visited = new bool[n + 1];
             double[] times = new double[n + 1];
             int[] fromNodeId = new int[n + 1];
-            double[] distance = new double[n + 1];
             IndexedPriorityQueue indexedPQ = new IndexedPriorityQueue();
             for (int i = 0; i <= n; i++)
             {
                 visited[i] = false;
                 times[i] = double.MaxValue;
                 fromNodeId[i] = -1;
-                distance[i] = 0.0;
             }
             times[sourceId] = 0.0;// to myself cost 0 
             indexedPQ.Insert(sourceId, 0.0);
@@ -66,7 +73,6 @@ namespace ShortestPathFinder.MapRouting.Engine
                         double newBetterTime = times[index] + edge.TokenTime;
                         if (newBetterTime < times[edge.To])
                         {
-                            distance[edge.To] = edge.LengthInKm;
                             times[edge.To] = newBetterTime;
                             fromNodeId[edge.To] = index;
                             if (!indexedPQ.Contains(edge.To)) indexedPQ.Insert(edge.To, newBetterTime);
@@ -78,7 +84,7 @@ namespace ShortestPathFinder.MapRouting.Engine
                 }
 
             }
-            return (fromNodeId, times,distance);
+            return (fromNodeId, times);
 
         }
     }

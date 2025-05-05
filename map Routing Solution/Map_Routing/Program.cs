@@ -43,21 +43,22 @@ namespace MapRouting
                 int nodesCount = graph.Nodes.Count;
 
                 // Process queries in parallel
-                ConcurrentBag<(string path, double shortestTime, double pathLength, double walkingDistance, double roadsLength)> results = new ConcurrentBag<(string, double, double, double, double)>();
-                Parallel.ForEach(queries, query =>
+                ConcurrentBag<(int index, string path, double shortestTime, double pathLength, double walkingDistance, double roadsLength)> results = new ConcurrentBag<(int, string, double, double, double, double)>();
+                Parallel.ForEach(queries.Select((query, index) => (query, index)), item =>
                 {
-                    var result = HandleBestRoute.findBestStartAndEndNode(nodesCount, query, graph);
-                    results.Add(result);
+                    var result = HandleBestRoute.findBestStartAndEndNode(nodesCount, item.query, graph);
+                    results.Add((item.index, result.path, result.shortestTime, result.pathLength, result.walkingDistance, result.roadsLength));
                 });
 
                 TimerHandler.EndLogicTimer();
                 try
                 {
-                    ResultWriter.WriteResultsAndTiming(
+                        ResultWriter.WriteResultsAndTiming(
                         results,
                         TimerHandler.GetTotalLogicTimeInMilliseconds(),
                         TimerHandler.GetTotalTimeInMilliseconds(),
                         @".\myOutput\results.txt"
+                    
                     );
                     TimerHandler.EndTotalProgramTimer();
                 }

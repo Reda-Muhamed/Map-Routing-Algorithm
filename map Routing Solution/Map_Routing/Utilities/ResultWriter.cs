@@ -10,12 +10,13 @@ namespace ShortestPathFinder.MapRouting.Utilities
     {
 
 
-
+        // use index to make the order of the output file same as the order of the queries in the input file
         public static void WriteResultsAndTiming(
-             ConcurrentBag<(string path, double shortestTime, double pathLength, double walkingDistance, double roadsLength)> results,
-             double logicTime,
-             double totalTime,
-             string outputFilePath)
+            ConcurrentBag<(int index, string path, double shortestTime, double pathLength, double walkingDistance, double roadsLength)> results,
+            double logicTime,
+            double totalTime,
+            string outputFilePath)
+
         {
             try
             {
@@ -27,7 +28,7 @@ namespace ShortestPathFinder.MapRouting.Utilities
 
                 int count = 0;
                 StringBuilder sb = new StringBuilder();
-                foreach (var result in results)
+                foreach (var result in results.OrderBy(r => r.index))
                 {
                     sb.AppendLine($"{result.path}");
                     sb.AppendLine($"{Math.Round(result.shortestTime, 2).ToString("F2")} mins");
