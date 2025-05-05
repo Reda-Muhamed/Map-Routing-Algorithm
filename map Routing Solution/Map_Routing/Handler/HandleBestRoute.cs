@@ -49,7 +49,6 @@ namespace MapRouting.Handler
                 allDestinationNodesData.Add(destinationNode.Id, new Tuple<double, double>(walkingDistanceToDestinationNode, walkingTimeToDestinationNode));
             }
 
-            object lockObject = new object();
 
             // try all neighbors nodes 
             foreach(Node sourceNode in sourceNodes)
@@ -62,8 +61,7 @@ namespace MapRouting.Handler
                         continue;
                     (string path, double carTime, double allDistance) = OptimalAlgorithm.detectShortestPath(nodesCount, sourceNode.Id, destinationNode.Id, graph.AdjacencyList);
 
-                    lock (lockObject)
-                    {
+                    
                         double totalTime = carTime + walkingTimeToSourceNode + walkingTimeToDestinationNode;
 
                         if (totalTime < minTime)
@@ -74,7 +72,7 @@ namespace MapRouting.Handler
                             finalWalkingDistance = walkingDistanceToSourceNode + walkingDistanceToDestinationNode;
                         }
                     }
-                }
+                
             };
             if (minTime == double.MaxValue)
             {
