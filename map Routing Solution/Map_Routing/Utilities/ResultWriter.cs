@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,49 +8,61 @@ namespace ShortestPathFinder.MapRouting.Utilities
 {
     public  class ResultWriter
     {
-        public static void appendQueryResultInTheFile(string pathNodes,double shortestTime, double totalDistance,
-                                                        double walkingDistance, double vehicleDistance)
+
+
+
+        public static void WriteResultsAndTiming(
+             ConcurrentBag<(string path, double shortestTime, double pathLength, double walkingDistance, double roadsLength)> results,
+             double logicTime,
+             double totalTime,
+             string outputFilePath)
         {
             try
             {
-                Console.WriteLine($"Writing : \n"+ $"{pathNodes}\n" +
-                                $"{Math.Round(shortestTime , 2)} mins\n" +
-                                $"{Math.Round(totalDistance, 2)} km\n" +
-                                $"{Math.Round(walkingDistance, 2)} km\n" +
-                                $"{Math.Round(vehicleDistance, 2)} km\n" + "\n");
+                string directory = Path.GetDirectoryName(outputFilePath);
+                if (!string.IsNullOrEmpty(directory))
+                {
+                    Directory.CreateDirectory(directory);
+                }
 
+                int count = 0;
+                StringBuilder sb = new StringBuilder();
+                foreach (var result in results)
+                {
+                    sb.AppendLine($"{result.path}");
+                    sb.AppendLine($"{Math.Round(result.shortestTime, 2).ToString("F2")} mins");
+                    sb.AppendLine($"{Math.Round(result.pathLength, 2).ToString("F2")} km");
+                    sb.AppendLine($"{Math.Round(result.walkingDistance, 2).ToString("F2")} km");
+                    sb.AppendLine($"{Math.Round(result.roadsLength, 2).ToString("F2")} km");
+                    sb.AppendLine();
+                    Console.WriteLine($"{result.path}\n" + $"{Math.Round(result.shortestTime, 2).ToString("F2")} mins\n" +
+                        $"{Math.Round(result.pathLength, 2).ToString("F2")} km\n" +
+                        $"{Math.Round(result.walkingDistance, 2).ToString("F2")} km\n" +
+                        $"{Math.Round(result.roadsLength, 2).ToString("F2")} km\n\n");
+                    count++;
 
-                File.AppendAllText(@".\myOutput\results.txt",
-                                $"{pathNodes}\n" +
-                                $"{Math.Round(shortestTime , 2)} mins\n" +
-                                $"{Math.Round(totalDistance, 2)} km\n" +
-                                $"{Math.Round(walkingDistance, 2)} km\n" +
-                                $"{Math.Round(vehicleDistance, 2)} km\n" + "\n");
+                }
+
+                sb.AppendLine($"{Math.Round(logicTime, 2)} ms");
+                sb.AppendLine();
+                sb.AppendLine($"{Math.Round(totalTime, 2)} ms");
+                sb.AppendLine();
+                Console.WriteLine($"{Math.Round(logicTime, 2)} ms\n\n" + $"{Math.Round(totalTime, 2)} ms\n\n" );
+
+                Console.WriteLine($"######### Total number of queries: {count} #######################");
+                File.WriteAllText(outputFilePath, sb.ToString());
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error writing to file: {ex.Message}");
             }
-            return;
-        }public static void appendTimeInTheFile(long logicTime, long totalTime)
-        {
-            try
-            {
-                Console.WriteLine($"Writing : \n" +
-                                    $"{logicTime} ms\n\n" +
-                                    $"{totalTime} ms\n\n");
-                File.AppendAllText(@".\myOutput\results.txt",
-                                    $"{logicTime} ms\n\n" +
-                                    $"{totalTime} ms\n\n");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error writing to file: {ex.Message}");
-            }
-            return;
         }
 
-    
+
+
     }
 
 }
+
+
+
