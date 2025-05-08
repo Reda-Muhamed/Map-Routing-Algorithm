@@ -39,8 +39,8 @@ namespace ShortestPathFinder.MapRouting.Utilities
                 int to = int.Parse(parts[1]);
                 double distance = double.Parse(parts[2]); // KM
                 double speed = double.Parse(parts[3]); // KM/H
-                graph.EmplaceEdge(new Edge(from, to, distance, speed));
-                graph.EmplaceEdge(new Edge(to, from, distance, speed));
+                graph.EmplaceEdge(new Edge(from, to, distance, speed , false));
+                graph.EmplaceEdge(new Edge(to, from, distance, speed, false));
                 
             }
 

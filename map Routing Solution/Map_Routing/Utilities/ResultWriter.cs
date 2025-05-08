@@ -12,7 +12,7 @@ namespace ShortestPathFinder.MapRouting.Utilities
 
         // use index to make the order of the output file same as the order of the queries in the input file
         public static void WriteResultsAndTiming(
-            ConcurrentBag<(int index, string path, double shortestTime, double pathLength, double walkingDistance, double roadsLength)> results,
+            List<(int index, string path, double shortestTime, double pathLength, double walkingDistance, double roadsLength)> results,
             double logicTime,
             double totalTime,
             string outputFilePath)
@@ -57,6 +57,21 @@ namespace ShortestPathFinder.MapRouting.Utilities
             {
                 Console.WriteLine($"Error writing to file: {ex.Message}");
             }
+        }
+
+        public static void WriteResultsAndTimingTesting(
+            string path, double shortestTime, double pathLength, double walkingDistance, double roadsLength
+           )
+
+        {
+            
+                  
+                    Console.WriteLine($"{path}\n" + $"{Math.Round(shortestTime, 2).ToString("F2")} mins\n" +
+                        $"{Math.Round(pathLength, 2).ToString("F2")} km\n" +
+                        $"{Math.Round(walkingDistance, 2).ToString("F2")} km\n" +
+                        $"{Math.Round(roadsLength, 2).ToString("F2")} km\n\n");
+               
+            
         }
 
 

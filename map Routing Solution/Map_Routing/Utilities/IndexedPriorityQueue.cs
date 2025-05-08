@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShortestPathFinder.MapRouting.Utilities
 {
-    //this is better than normal priority queue cuz it avoid duplicate and the update complexity will be (log n) 
+    // A priority queue with index tracking for efficient updates, optimized for Dijkstra's algorithm
     public class IndexedPriorityQueue
     {
-        private List<int> heap; // stores node indices
+        public List<int> heap; // Stores node indices
         private Dictionary<int, int> positions; // nodeId -> position in heap
         private Dictionary<int, double> priorities; // nodeId -> priority
 
@@ -62,7 +59,6 @@ namespace ShortestPathFinder.MapRouting.Utilities
             return (minNode, minPriority);
         }
 
-
         public bool Contains(int nodeId)
         {
             return positions.ContainsKey(nodeId);
@@ -71,6 +67,13 @@ namespace ShortestPathFinder.MapRouting.Utilities
         public double GetPriority(int nodeId)
         {
             return priorities.TryGetValue(nodeId, out double value) ? value : double.PositiveInfinity;
+        }
+
+        public double GetMinKey()
+        {
+            if (IsEmpty)
+                return double.MaxValue;
+            return priorities[heap[0]];
         }
 
         private void HeapifyUp(int i)

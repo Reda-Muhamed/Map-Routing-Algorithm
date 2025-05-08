@@ -1,91 +1,113 @@
-﻿using ShortestPathFinder.MapRouting.Models;
+﻿using MapRouting;
+using ShortestPathFinder.MapRouting.Models;
 using ShortestPathFinder.MapRouting.Utilities;
 namespace ShortestPathFinder.MapRouting.Engine
 {
-    public class OptimalAlgorithm
+    public static class OptimalAlgorithm
     {
-        // still looking for the best algoritm 
-        public static (string path ,double optimalTime,double allDistance) detectShortestPath(int n, int sourceId, int destinationId, Dictionary<int, List<Edge>> adjList)
+        static public (Dictionary<int, int> fromNodeId, Dictionary<int, double> times)
+            optimizedDijkstraAlgorithm(int n, int sourceId, int destinationId, Dictionary<int, List<Edge>> adjList) // [node Id]->{edge1, edge2 , edge3 }
         {
-            List<int> path = new List<int>();
-            (int[] fromNodeId, double[] times) = optimizedDijkstraAlgorithm(n, sourceId, destinationId, adjList);
-            //foreach(var parent in fromNodeId)
-            //{
-            //    Console.WriteLine(parent); //all is -1 :(
-            //}
-            //foreach(var parent in times)
-            //{
-            //    Console.WriteLine(parent); //all is maxVal :(
-            //}
-            double optimalTime = times[destinationId];
-            if (times[destinationId] == double.MaxValue) return ("No Path found" , 0.0,0.0);
+            var visited = new HashSet<int>();
+            var times = new Dictionary<int, double>();
+            var fromNodeId = new Dictionary<int, int>(); // to detect path
+            var indexedPQ = new IndexedPriorityQueue();
 
-            int currentNodeId = destinationId;
-            double allDistance = 0.0;
-            while (currentNodeId != -1)
+            var keys = adjList.Keys.ToList();
+            foreach (var nodeId in keys)
             {
-                path.Add(currentNodeId);
-                int prevNodeId = fromNodeId[currentNodeId];
-                if (prevNodeId != -1)
-                {
-                    // Get edge length from prevNodeId -> currentNodeId
-                    var edge = adjList[prevNodeId].FirstOrDefault(e => e.To == currentNodeId);
-                    if (edge != null)
-                    {
-                        allDistance += edge.LengthInKm;
-                    }
-                }
-                currentNodeId = fromNodeId[currentNodeId];
-
-            }         
-            path.Reverse();
-            return (string.Join(" " , path) , optimalTime , allDistance) ;
-        }
-
-        // n -> #No. 0f nodes
-        static public (int[] fromNodeId, double[] times) optimizedDijkstraAlgorithm(int n, int sourceId, int destinationId, Dictionary<int, List<Edge>> adjList)
-        {
-            bool[] visited = new bool[n + 1];
-            double[] times = new double[n + 1];
-            int[] fromNodeId = new int[n + 1];
-            IndexedPriorityQueue indexedPQ = new IndexedPriorityQueue();
-            for (int i = 0; i <= n; i++)
-            {
-                visited[i] = false;
-                times[i] = double.MaxValue;
-                fromNodeId[i] = -1;
+                times[nodeId] = double.MaxValue;
+                fromNodeId[nodeId] = -1;
             }
-            times[sourceId] = 0.0;// to myself cost 0 
+            if (!times.ContainsKey(sourceId))
+            {
+                times[sourceId] = double.MaxValue;
+                fromNodeId[sourceId] = -1;
+            }
+            if (!times.ContainsKey(destinationId))
+            {
+                times[destinationId] = double.MaxValue;
+                fromNodeId[destinationId] = -1;
+            }
+
+            times[sourceId] = 0.0;//cost to my self is 0
             indexedPQ.Insert(sourceId, 0.0);
+
             while (!indexedPQ.IsEmpty)
             {
-                (int index, double minTime) = indexedPQ.Pull();
-                if (times[index] < minTime || visited[index])
+                var (index, minTime) = indexedPQ.Pull();
+                if (times[index] < minTime || visited.Contains(index))
                     continue;
-                if (index == destinationId) break;
+                if (index == destinationId)
+                    break;
 
-                visited[index] = true;
+                visited.Add(index);
 
-                foreach (Edge edge in adjList[index])//adjList[index] -> list of edges
+                if (!adjList.ContainsKey(index))
+                    continue;
+
+                foreach (Edge edge in adjList[index])
                 {
-                    if (!visited[edge.To])
+                    if (!visited.Contains(edge.To))
                     {
                         double newBetterTime = times[index] + edge.TokenTime;
                         if (newBetterTime < times[edge.To])
                         {
                             times[edge.To] = newBetterTime;
                             fromNodeId[edge.To] = index;
-                            if (!indexedPQ.Contains(edge.To)) indexedPQ.Insert(edge.To, newBetterTime);
-                            else indexedPQ.DecreaseKey(edge.To, newBetterTime);
-                        
+                            if (!indexedPQ.Contains(edge.To))
+                                indexedPQ.Insert(edge.To, newBetterTime);
+                            else
+                                indexedPQ.DecreaseKey(edge.To, newBetterTime);
                         }
+                    }
+                }
+            }
 
+            return (fromNodeId, times);
+        }
+
+        public static (string path, double optimalTime, double allDistance, double walkingDistance, double pathDistance)
+            detectShortestPath(int n, int sourceId, int destinationId, Dictionary<int, List<Edge>> adjList)
+        {
+            List<int> path = new List<int>();
+            var (fromNodeId, times) = optimizedDijkstraAlgorithm(n, sourceId, destinationId, adjList);
+
+            double optimalTime = times.ContainsKey(destinationId) ? times[destinationId] : double.MaxValue;
+            if (optimalTime == double.MaxValue)
+                return ("No Path found", 0.0, 0.0, 0.0, 0.0);
+
+            double allDistance = 0.0;
+            double walkingDistance = 0.0;
+            double pathDistance = 0.0;
+
+            int currentNodeId = destinationId;
+            while (currentNodeId != sourceId && fromNodeId.ContainsKey(currentNodeId))
+            {   if(currentNodeId != Program.VIRTUAL_SOURCE_NODE_ID && currentNodeId != Program.VIRTUAL_DESTINATION_NODE_ID)               
+                path.Add(currentNodeId);
+                int prevNodeId = fromNodeId[currentNodeId];
+                if (prevNodeId != -1 && adjList.ContainsKey(prevNodeId))
+                {
+                    var edge = adjList[prevNodeId].FirstOrDefault(e => e.To == currentNodeId);
+                    if (edge != null)
+                    {
+                        allDistance += edge.Length;
+                        if (edge.IsWalking)
+                            walkingDistance += edge.Length;
+                        else
+                            pathDistance += edge.Length;
                     }
                 }
 
+                currentNodeId = prevNodeId;
             }
-            return (fromNodeId, times);
+            path.Reverse();
 
+            return (string.Join(" ", path), optimalTime, allDistance, walkingDistance, pathDistance);
         }
+
+     
     }
+
+
 }
