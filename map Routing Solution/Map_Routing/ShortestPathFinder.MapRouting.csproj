@@ -37,10 +37,28 @@
     <None Update="TestCases\Sample Cases\[1] Sample Cases\Input\map2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="TestCases\Sample Cases\[1] Sample Cases\Input\map3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestCases\Sample Cases\[1] Sample Cases\Input\map4.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestCases\Sample Cases\[1] Sample Cases\Input\map5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="TestCases\Sample Cases\[1] Sample Cases\Input\queries1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="TestCases\Sample Cases\[1] Sample Cases\Input\queries2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestCases\Sample Cases\[1] Sample Cases\Input\queries3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestCases\Sample Cases\[1] Sample Cases\Input\queries4.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestCases\Sample Cases\[1] Sample Cases\Input\queries5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

@@ -83,8 +83,9 @@ namespace ShortestPathFinder.MapRouting.Engine
 
             int currentNodeId = destinationId;
             while (currentNodeId != sourceId && fromNodeId.ContainsKey(currentNodeId))
-            {   if(currentNodeId != Program.VIRTUAL_SOURCE_NODE_ID && currentNodeId != Program.VIRTUAL_DESTINATION_NODE_ID)               
-                path.Add(currentNodeId);
+            {
+                if (currentNodeId != Program.VIRTUAL_SOURCE_NODE_ID && currentNodeId != Program.VIRTUAL_DESTINATION_NODE_ID)
+                    path.Add(currentNodeId);
                 int prevNodeId = fromNodeId[currentNodeId];
                 if (prevNodeId != -1 && adjList.ContainsKey(prevNodeId))
                 {
@@ -106,8 +107,7 @@ namespace ShortestPathFinder.MapRouting.Engine
             return (string.Join(" ", path), optimalTime, allDistance, walkingDistance, pathDistance);
         }
 
-     
-    }
 
+    }
 
 }

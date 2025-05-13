@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\L E N O V O\\Desktop\\algo\\Map-Routing-Algorithm-master\\Map-Routing-Algorithm-master\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj": {}
+    "E:\\COLLEGE MATERIAL\\Algo\\Algo Project\\Map-Routing-Algorithm\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\L E N O V O\\Desktop\\algo\\Map-Routing-Algorithm-master\\Map-Routing-Algorithm-master\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj": {
+    "E:\\COLLEGE MATERIAL\\Algo\\Algo Project\\Map-Routing-Algorithm\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\L E N O V O\\Desktop\\algo\\Map-Routing-Algorithm-master\\Map-Routing-Algorithm-master\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj",
+        "projectUniqueName": "E:\\COLLEGE MATERIAL\\Algo\\Algo Project\\Map-Routing-Algorithm\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj",
         "projectName": "ShortestPathFinder.MapRouting",
-        "projectPath": "C:\\Users\\L E N O V O\\Desktop\\algo\\Map-Routing-Algorithm-master\\Map-Routing-Algorithm-master\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj",
-        "packagesPath": "C:\\Users\\L E N O V O\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\L E N O V O\\Desktop\\algo\\Map-Routing-Algorithm-master\\Map-Routing-Algorithm-master\\map Routing Solution\\Map_Routing\\obj\\",
+        "projectPath": "E:\\COLLEGE MATERIAL\\Algo\\Algo Project\\Map-Routing-Algorithm\\map Routing Solution\\Map_Routing\\ShortestPathFinder.MapRouting.csproj",
+        "packagesPath": "C:\\Users\\reda2\\.nuget\\packages\\",
+        "outputPath": "E:\\COLLEGE MATERIAL\\Algo\\Algo Project\\Map-Routing-Algorithm\\map Routing Solution\\Map_Routing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\L E N O V O\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\reda2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

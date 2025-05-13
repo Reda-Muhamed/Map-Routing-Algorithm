@@ -1,40 +1,119 @@
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.exe
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\myOutput\results.txt
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Large Cases\[3] Large Cases\Input\SFMap.txt
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Large Cases\[3] Large Cases\Input\SFQueries.txt
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Medium Cases\[2] Medium Cases\Input\OLMap.txt
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Medium Cases\[2] Medium Cases\Input\OLQueries.txt
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map1.txt
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map2.txt
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries1.txt
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries2.txt
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.deps.json
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.runtimeconfig.json
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.pdb
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Extensions.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Rewrite.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.csproj.AssemblyReference.cache
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.AssemblyInfoInputs.cache
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.AssemblyInfo.cs
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.csproj.CoreCompileInputs.cache
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\obj\Debug\net8.0\Shortest.0136DAC7.Up2Date
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\obj\Debug\net8.0\refint\ShortestPathFinder.MapRouting.dll
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.pdb
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.genruntimeconfig.cache
-C:\Users\L E N O V O\Desktop\algo\Map-Routing-Algorithm-master\Map-Routing-Algorithm-master\map Routing Solution\Map_Routing\obj\Debug\net8.0\ref\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.csproj.AssemblyReference.cache
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.GeneratedMSBuildEditorConfig.editorconfig
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.AssemblyInfoInputs.cache
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.AssemblyInfo.cs
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.csproj.CoreCompileInputs.cache
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.exe
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.deps.json
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.runtimeconfig.json
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.pdb
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Extensions.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Rewrite.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\obj\Debug\net8.0\Shortest.0136DAC7.Up2Date
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\obj\Debug\net8.0\refint\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.pdb
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.genruntimeconfig.cache
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\obj\Debug\net8.0\ref\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map1.txt
+E:\COLLEGE MATERIAL\Algo\ALGO_PROJECT\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries1.txt
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.csproj.AssemblyReference.cache
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.GeneratedMSBuildEditorConfig.editorconfig
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.AssemblyInfoInputs.cache
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.AssemblyInfo.cs
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.csproj.CoreCompileInputs.cache
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.sourcelink.json
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\refint\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.pdb
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.exe
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map1.txt
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries1.txt
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.deps.json
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.runtimeconfig.json
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.pdb
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Extensions.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Rewrite.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\Shortest.0136DAC7.Up2Date
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.genruntimeconfig.cache
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\obj\Debug\net8.0\ref\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\myOutput\results.txt
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map2.txt
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries2.txt
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Large Cases\[3] Large Cases\Input\SFMap.txt
+E:\COLLEGE MATERIAL\Algo\map Routing Algorithm Project\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Large Cases\[3] Large Cases\Input\SFQueries.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.exe
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\myOutput\results.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Large Cases\[3] Large Cases\Input\SFMap.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Large Cases\[3] Large Cases\Input\SFQueries.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map1.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map2.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries1.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries2.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.deps.json
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.runtimeconfig.json
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.pdb
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Extensions.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Rewrite.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.csproj.AssemblyReference.cache
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.GeneratedMSBuildEditorConfig.editorconfig
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.AssemblyInfoInputs.cache
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.AssemblyInfo.cs
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.csproj.CoreCompileInputs.cache
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.sourcelink.json
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\Shortest.0136DAC7.Up2Date
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\refint\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.pdb
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.genruntimeconfig.cache
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ref\ShortestPathFinder.MapRouting.dll
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Medium Cases\[2] Medium Cases\Input\OLMap.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Medium Cases\[2] Medium Cases\Input\OLQueries.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map3.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map4.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map5.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries3.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries4.txt
+E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries5.txt

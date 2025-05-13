@@ -30,9 +30,25 @@ namespace ShortestPathFinder.MapRouting.Utilities
 
 
         // Get all nodes in range of the given point
-        public static List<Node> GetNearbyNodes(double x, double y, List<Node> allNodes, double maxWalkingDistance)//maxWalkingDistance : should be in KM
+        public static (List<Node> nearBySourceNodes, List<Node>nearByDestinationNodes) GetNearbyNodes(Query query , List<Node> allNodes, double maxWalkingDistance)//maxWalkingDistance : should be in KM
         {
-            return allNodes.Where(n => calculateDistanceBetween2PointsInKm(n.XPoint, n.YPoint, x, y) <= maxWalkingDistance).ToList();
+            List<Node> nearBySourceNodes = new List<Node>();
+            List<Node> nearByDestinationNodes = new List<Node>();
+            allNodes.Select(n => n).ToList();
+            foreach (var node in allNodes)
+            {
+                double distanceToSource = calculateDistanceBetween2PointsInKm(query.SourceX, query.SourceY, node);
+                double distanceToDestination = calculateDistanceBetween2PointsInKm(query.DestinationX, query.DestinationY, node);
+                if (distanceToSource <= maxWalkingDistance)
+                {
+                    nearBySourceNodes.Add(node);
+                }
+                if (distanceToDestination <= maxWalkingDistance)
+                {
+                    nearByDestinationNodes.Add(node);
+                }
+            }
+            return (nearBySourceNodes, nearByDestinationNodes);
         }
 
 
