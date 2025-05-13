@@ -26,10 +26,10 @@ namespace MapRouting
 
                 try
                 {
-                    graphLines = File.ReadAllLines(@"E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\TestCases\Medium Cases\[2] Medium Cases\Input\OLMap.txt");
-                    queriesLines = File.ReadAllLines(@"E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\TestCases\Medium Cases\[2] Medium Cases\Input\OLQueries.txt");
-                    //graphLines = File.ReadAllLines(@"E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\TestCases\Large Cases\[3] Large Cases\Input\SFMap.txt");
-                    //queriesLines = File.ReadAllLines(@"E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\TestCases\Large Cases\[3] Large Cases\Input\SFQueries.txt");
+                    //graphLines = File.ReadAllLines(@"E:\Map-Routing-Algorithm\map Routing Solution\Map_Routing\TestCases\Medium Cases\[2] Medium Cases\Input\OLMap.txt");
+                    //queriesLines = File.ReadAllLines(@"E:\Map-Routing-Algorithm\map Routing Solution\Map_Routing\TestCases\Medium Cases\[2] Medium Cases\Input\OLQueries.txt");
+                    graphLines = File.ReadAllLines(@"E:\Map-Routing-Algorithm\map Routing Solution\Map_Routing\TestCases\Large Cases\[3] Large Cases\Input\SFMap.txt");
+                    queriesLines = File.ReadAllLines(@"E:\Map-Routing-Algorithm\map Routing Solution\Map_Routing\TestCases\Large Cases\[3] Large Cases\Input\SFQueries.txt");
 
 
 
@@ -100,7 +100,7 @@ namespace MapRouting
                                             .ToList();
 
                 ResultWriter.WriteResultsAndTiming(orderedResults, TimerHandler.GetTotalLogicTimeInMilliseconds(),
-                    @"E:\COLLEGE MATERIAL\Algo\Algo Project\Map-Routing-Algorithm\map Routing Solution\Map_Routing\myOutput\results.txt");
+                    @"E:\Map-Routing-Algorithm\map Routing Solution\Map_Routing\myOutput\results.txt");
             }
             catch (Exception ex)
             {

@@ -1,13 +1,22 @@
-# Visual Studio
+# Ignore build output
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# VS-related folders
+.vscode/
 .vs/
+
+# Ignore user-specific files
 *.user
 *.suo
 
-# Build results
-bin/
-obj/
+# Ignore output
+map Routing Solution/Map_Routing/myOutput/results.txt
 
-# Other
-*.vsidx
-*.db
-*.log
+# Ignore generated editorconfig or other generated MSBuild files
+*.GeneratedMSBuildEditorConfig.editorconfig
