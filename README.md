@@ -112,4 +112,4 @@ Data Structures: Graphs, Priority Queue, Geometry
 | Tasneem Mohamed Ahmed Mohamed | https://github.com/Tasneem357Mohamed |
 |      Bsmala Tarek Kamal Khalil Elbagoury     | https://github.com/Bsmalatarek |
 |          Yara Ahmed Abdelrahman       |  |
-|          Yassmina Mohamed Saleh     | |
+|          Yassmina Mohamed Saleh     | https://github.com/Yassmina2106 |
