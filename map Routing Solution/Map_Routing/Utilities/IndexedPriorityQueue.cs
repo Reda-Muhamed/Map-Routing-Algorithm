@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ShortestPathFinder.MapRouting.Utilities
 {
-    // A priority queue with index tracking for efficient updates, optimized for Dijkstra's algorithm
+    
     public class IndexedPriorityQueue
     {
         public List<int> heap; // Stores node indices

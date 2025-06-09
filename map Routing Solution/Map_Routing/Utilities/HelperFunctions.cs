@@ -13,7 +13,7 @@ namespace ShortestPathFinder.MapRouting.Utilities
         private const double WalkingSpeedKmH = 5.0;
 
 
-        // calculate the distance between two points in km
+
         public static double calculateDistanceBetween2PointsInKm(double x1, double y1, double x2, double y2)
         {
             double dx = x1 - x2;
@@ -29,7 +29,7 @@ namespace ShortestPathFinder.MapRouting.Utilities
 
 
 
-        // Get all nodes in range of the given point
+
         public static (List<Node> nearBySourceNodes, List<Node>nearByDestinationNodes) GetNearbyNodes(Query query , List<Node> allNodes, double maxWalkingDistance)//maxWalkingDistance : should be in KM
         {
             List<Node> nearBySourceNodes = new List<Node>();
@@ -53,7 +53,7 @@ namespace ShortestPathFinder.MapRouting.Utilities
 
 
 
-        // Calculate the walking time in minute
+
         public static double CalculateWalkingTimeInH(double distanceInKM)
         {
             return distanceInKM / WalkingSpeedKmH;

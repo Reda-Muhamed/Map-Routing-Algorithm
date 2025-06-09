@@ -164,3 +164,53 @@ E:\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\refin
 E:\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.pdb
 E:\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.genruntimeconfig.cache
 E:\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ref\ShortestPathFinder.MapRouting.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.exe
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\myOutput\results.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Large Cases\[3] Large Cases\Input\SFMap.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Large Cases\[3] Large Cases\Input\SFQueries.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Medium Cases\[2] Medium Cases\Input\OLMap.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Medium Cases\[2] Medium Cases\Input\OLQueries.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map1.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map2.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map3.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map4.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\map5.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries1.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries2.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries3.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries4.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\TestCases\Sample Cases\[1] Sample Cases\Input\queries5.txt
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.deps.json
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.runtimeconfig.json
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\ShortestPathFinder.MapRouting.pdb
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.csproj.AssemblyReference.cache
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.AssemblyInfoInputs.cache
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.AssemblyInfo.cs
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.csproj.CoreCompileInputs.cache
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.sourcelink.json
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\Shortest.0136DAC7.Up2Date
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\refint\ShortestPathFinder.MapRouting.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.pdb
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ShortestPathFinder.MapRouting.genruntimeconfig.cache
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\obj\Debug\net8.0\ref\ShortestPathFinder.MapRouting.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\L E N O V O\Downloads\Map-Routing-Algorithm(2)\Map-Routing-Algorithm\map Routing Solution\Map_Routing\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll

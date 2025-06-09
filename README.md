@@ -1,21 +1,13 @@
 # 🚗 Fastest Path Routing System
 
-## Overview
+## 📌 Overview
 
 This project implements a high-performance routing system that finds the **fastest path (least time)** between any two points on a map. Unlike standard algorithms that work from node to node, this system supports arbitrary **source and destination coordinates**, allowing users to **walk** to and from nearby intersections within a specified range.
 
 ---
 
-## Table of Content
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Input Format](#input-format)
-- [Sample Output](#sample-output)
-- [Contributors](#contributors)
+## 📂 Project Structure
 
----
-
-## Project Structure
 
 -ShortestPathFinder.MapRouting/
 │
@@ -49,7 +41,7 @@ This project implements a high-performance routing system that finds the **faste
 
 ---
 
-## Features
+## 📈 Features
 
 - Source and destination points can be **any coordinates**, not just graph nodes.
 - Walking allowed within a **radius R** (in meters) from source/destination to nearest intersection.
@@ -66,7 +58,7 @@ This project implements a high-performance routing system that finds the **faste
 
 ---
 
-## Input Format
+## 🧾 Input Format
 
 ### `map.txt`
 
@@ -83,9 +75,7 @@ Euclidean distance calculation for identifying reachable nodes within walking di
 
 Performance monitoring using C#’s Stopwatch for execution time.
 
----
-
-## Sample Output
+📤 Sample Output
 pgsql
 Copy
 Edit
@@ -103,13 +93,3 @@ Design: Object-Oriented Programming (OOP)
 
 Data Structures: Graphs, Priority Queue, Geometry
 
----
-
-## Contributors
-|                   Name                    |    Github Link    |
-| :---------------------------------------: | :--------: |
-|      Reda Mohamed Reda Mohamed    | https://github.com/Reda-Muhamed |
-| Tasneem Mohamed Ahmed Mohamed | https://github.com/Tasneem357Mohamed |
-|      Bsmala Tarek Kamal Khalil Elbagoury     | https://github.com/Bsmalatarek |
-|          Yara Ahmed Abdelrahman       |  |
-|          Yassmina Mohamed Saleh     | https://github.com/Yassmina2106 |

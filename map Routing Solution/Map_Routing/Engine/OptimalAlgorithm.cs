@@ -111,3 +111,245 @@ namespace ShortestPathFinder.MapRouting.Engine
     }
 
 }
+
+
+//==============================================================================================================
+//                                           TEST
+//==============================================================================================================
+
+
+
+
+//using ShortestPathFinder.MapRouting.Models;
+//using ShortestPathFinder.MapRouting.Utilities;
+
+//namespace ShortestPathFinder.MapRouting.Engine
+//{
+//    public static class OptimalAlgorithm
+//    {
+
+//        // public static (double minTime, Dictionary<int, int> fromNodeIdForward , Dictionary<int, int> fromNodeIdBackward)
+//        //    multiSourceBidirectionalDijkstra(int nodesCount ,IndexedPriorityQueue forwardPQ, Dictionary<int, double> walkingDistanceForSources, IndexedPriorityQueue backwardPQ,
+//        //                  Dictionary<int, double> walkingDistanceForDestinations, Dictionary<int, double> forwardTimes,
+//        //                  Dictionary<int, double> backwardTimes, Dictionary<int, List<Edge>> adjList)
+//        //{
+//        //    bool[] forwardVisited = new bool[nodesCount + 1];
+//        //    bool[] backwardVisited = new bool[nodesCount + 1];// default value -> false
+
+//        //    double minimumTime = double.PositiveInfinity;
+//        //    int meetingNode = -1;
+
+//        //    var fromNodeIdForward = new Dictionary<int, int>();
+//        //    var fromNodeIdBackward = new Dictionary<int, int>();
+
+
+//        //    while (!forwardPQ.IsEmpty && !backwardPQ.IsEmpty)
+//        //    {
+//        //        // Forward step
+//        //        if (!forwardPQ.IsEmpty)
+//        //        {
+//        //            var (currentNodeId, currentMinTime) = forwardPQ.Pull();
+//        //            if (forwardTimes[currentNodeId] < currentMinTime || forwardVisited[currentNodeId])
+//        //               continue;
+
+//        //            forwardVisited[currentNodeId]= true;
+
+
+
+//        //            foreach (Edge edge in adjList[currentNodeId])
+//        //            {
+//        //                if (!forwardVisited[edge.To])
+//        //                {
+//        //                    double newTestTime = forwardTimes[currentNodeId] + edge.TokenTime;
+//        //                    if (newTestTime < forwardTimes[edge.To])
+//        //                    {
+//        //                        forwardTimes[edge.To] = newTestTime;
+//        //                        fromNodeIdForward[edge.To] = currentNodeId;
+//        //                        if (!forwardPQ.Contains(edge.To))
+//        //                            forwardPQ.Insert(edge.To, newTestTime);
+//        //                        else
+//        //                            forwardPQ.DecreaseKey(edge.To, newTestTime);
+//        //                    }
+//        //                    if (backwardVisited[edge.To])
+//        //                    {
+//        //                        double totalTime = newTestTime + backwardTimes[edge.To];
+//        //                        if (totalTime < minimumTime)
+//        //                        {
+//        //                            minimumTime = totalTime;
+//        //                            meetingNode = edge.To;
+//        //                        }
+//        //                    }
+
+//        //                }
+//        //            }
+
+
+//        //        }
+
+
+//        //        if (!backwardPQ.IsEmpty)
+//        //        {
+//        //            var (currentNodeId, currentMinTime) = backwardPQ.Pull();
+//        //            if (backwardTimes[currentNodeId] < currentMinTime || backwardVisited[currentNodeId])
+//        //                continue;
+
+//        //            backwardVisited[currentNodeId] = true;
+
+//        //            foreach (Edge edge in adjList[currentNodeId])
+//        //            {
+//        //                if (!backwardVisited[edge.To])
+//        //                {
+//        //                    double newTestTime = backwardTimes[currentNodeId] + edge.TokenTime;
+//        //                    if (newTestTime < backwardTimes[edge.To])
+//        //                    {
+//        //                        backwardTimes[edge.To] = newTestTime;
+//        //                        fromNodeIdBackward[edge.To] = currentNodeId;
+
+//        //                        if (!backwardPQ.Contains(edge.To))
+//        //                            backwardPQ.Insert(edge.To, newTestTime);
+//        //                        else
+//        //                            backwardPQ.DecreaseKey(edge.To, newTestTime);
+//        //                    }
+
+//        //                    if (forwardVisited[edge.To])
+//        //                    {
+//        //                        double totalTime = newTestTime + forwardTimes[edge.To];
+//        //                        if (totalTime < minimumTime)
+//        //                        {
+//        //                            minimumTime = totalTime;
+//        //                            meetingNode = edge.To;
+//        //                        }
+//        //                    }
+//        //                }
+//        //            }
+//        //        }
+
+//        //    }
+//        //    return (minimumTime , fromNodeIdForward, fromNodeIdBackward);
+
+//        //}
+
+
+
+
+
+
+
+//        public static (double minTime, Dictionary<int, int> fromNodeIdForward, Dictionary<int, int> fromNodeIdBackward)
+//    multiSourceBidirectionalDijkstra(int nodesCount, IndexedPriorityQueue forwardPQ, Dictionary<int, double> walkingDistanceForSources,
+//                                    IndexedPriorityQueue backwardPQ, Dictionary<int, double> walkingDistanceForDestinations,
+//                                    Dictionary<int, double> forwardTimes, Dictionary<int, double> backwardTimes,
+//                                    Dictionary<int, List<Edge>> adjList)
+//        {
+//            bool[] forwardVisited = new bool[nodesCount + 1];
+//            bool[] backwardVisited = new bool[nodesCount + 1]; // default value -> false
+//            double minimumTime = double.PositiveInfinity;
+//            int meetingNode = -1;
+
+//            var fromNodeIdForward = new Dictionary<int, int>();
+//            var fromNodeIdBackward = new Dictionary<int, int>();
+
+//            // Initialize forwardTimes and backwardTimes for all nodes
+//            for (int i = 0; i <= nodesCount; i++)
+//            {
+//                if (!forwardTimes.ContainsKey(i))
+//                    forwardTimes[i] = double.PositiveInfinity;
+//                if (!backwardTimes.ContainsKey(i))
+//                    backwardTimes[i] = double.PositiveInfinity;
+//            }
+
+//            while (!forwardPQ.IsEmpty && !backwardPQ.IsEmpty)
+//            {
+//                // Forward step
+//                if (!forwardPQ.IsEmpty)
+//                {
+//                    var (currentNodeId, currentMinTime) = forwardPQ.Pull();
+//                    if (forwardTimes[currentNodeId] < currentMinTime || forwardVisited[currentNodeId])
+//                        continue;
+
+//                    forwardVisited[currentNodeId] = true;
+
+//                    if (!adjList.ContainsKey(currentNodeId)) // Safety check
+//                        continue;
+
+//                    foreach (Edge edge in adjList[currentNodeId])
+//                    {
+//                        if (!forwardVisited[edge.To])
+//                        {
+//                            // Ensure edge.To is in forwardTimes
+//                            if (!forwardTimes.ContainsKey(edge.To))
+//                                forwardTimes[edge.To] = double.PositiveInfinity;
+
+//                            double newTestTime = forwardTimes[currentNodeId] + edge.TokenTime;
+//                            if (newTestTime < forwardTimes[edge.To])
+//                            {
+//                                forwardTimes[edge.To] = newTestTime;
+//                                fromNodeIdForward[edge.To] = currentNodeId;
+//                                if (!forwardPQ.Contains(edge.To))
+//                                    forwardPQ.Insert(edge.To, newTestTime);
+//                                else
+//                                    forwardPQ.DecreaseKey(edge.To, newTestTime);
+//                            }
+//                            if (backwardVisited[edge.To])
+//                            {
+//                                double totalTime = newTestTime + backwardTimes[edge.To];
+//                                if (totalTime < minimumTime)
+//                                {
+//                                    minimumTime = totalTime;
+//                                    meetingNode = edge.To;
+//                                }
+//                            }
+//                        }
+//                    }
+//                }
+
+//                // Backward step
+//                if (!backwardPQ.IsEmpty)
+//                {
+//                    var (currentNodeId, currentMinTime) = backwardPQ.Pull();
+//                    if (backwardTimes[currentNodeId] < currentMinTime || backwardVisited[currentNodeId])
+//                        continue;
+
+//                    backwardVisited[currentNodeId] = true;
+
+//                    if (!adjList.ContainsKey(currentNodeId)) // Safety check
+//                        continue;
+
+//                    foreach (Edge edge in adjList[currentNodeId])
+//                    {
+//                        if (!backwardVisited[edge.To])
+//                        {
+//                            // Ensure edge.To is in backwardTimes
+//                            if (!backwardTimes.ContainsKey(edge.To))
+//                                backwardTimes[edge.To] = double.PositiveInfinity;
+
+//                            double newTestTime = backwardTimes[currentNodeId] + edge.TokenTime;
+//                            if (newTestTime < backwardTimes[edge.To])
+//                            {
+//                                backwardTimes[edge.To] = newTestTime;
+//                                fromNodeIdBackward[edge.To] = currentNodeId;
+//                                if (!backwardPQ.Contains(edge.To))
+//                                    backwardPQ.Insert(edge.To, newTestTime);
+//                                else
+//                                    backwardPQ.DecreaseKey(edge.To, newTestTime);
+//                            }
+//                            if (forwardVisited[edge.To])
+//                            {
+//                                double totalTime = newTestTime + forwardTimes[edge.To];
+//                                if (totalTime < minimumTime)
+//                                {
+//                                    minimumTime = totalTime;
+//                                    meetingNode = edge.To;
+//                                }
+//                            }
+//                        }
+//                    }
+//                }
+//            }
+
+//            return (minimumTime, fromNodeIdForward, fromNodeIdBackward);
+//        }
+
+
+//    }
+//}

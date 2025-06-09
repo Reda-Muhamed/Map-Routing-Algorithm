@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShortestPathFinder.MapRouting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+541d46e8f15a6590a00b6f2ccfbaf51f143d14a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5e131533486d4f82d355f1f6e10c2376e184c1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShortestPathFinder.MapRouting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShortestPathFinder.MapRouting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
